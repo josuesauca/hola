@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-top: 250px;
+    margin-left: 75px;
+    font-size: 60px;
+    position: relative;
+    border: 1px solid rgba(15, 102, 189, 0.97);
+    border-radius: 25px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00ac96;
+}
+
+.popup{
+    background:#000 ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.popup .content .btn-close{
+    position: absolute;
+    bottom: 320px;
+    left: 765px;
+    border-color: #00ac96;
+    color: #00ac96;
+}
+
+.img-fluid{
+    display: block;
+    margin-left: 200px;
+}
+
+
+.content{
+    margin: 8%;
+    background-color: #fff;
+    padding: 4rem 1rem 4rem;
+}
+
+.container .btn-class{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    color: #495057;
+}
+
+.form-control{
+    display: block;
+    width: 750px;
+    font-size: rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: #00ac96 !important;
+    border-style: solid !important;
+    border-width: 0 0 1px 0 !important;
+    padding: 0px !important;
+    color: #495057;
+    border-radius: 0;
+    background-color: #fff;
+    background-clip:padding-box ;
+}
+
+.form-control :focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-class{
+    border-color: #00ac96;
+    color: #00ac96;
+}
+
+.btn-class:hover{
+    background-color: #00ac96;
+    color: #fff;
+}
+
+.container .btn-class{
+    border-color: rgba(15, 102, 189, 0.97);
+    color: #fff;
+}
+
+.container .btn-class:hover{
+    background-color: rgb(9, 53, 11);
+    color: #fff;
+}
+
+.popup .content .btn-close:hover{
+    background-color: #00ac96;
+    color: #fff;
+}
+
+.collapse{
+    display: none !important;
+}

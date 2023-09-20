@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<semana>
+	<horario nombre= "Horario">
+        <horas>07:30 - 09:30</horas>
+        <horas>09:30 - 11:30</horas>
+        <horas>11:30 - 13:30</horas>
+	</horario>
+    
+	<dia nombre="Lunes">
+		<materia>
+			<nombreMateria>
+				Simulacion
+			</nombreMateria>
+		</materia>
+		<materia>
+			<nombreMateria>
+				Análisis Numérico
+			</nombreMateria>
+		</materia>
+		<materia>
+			<nombreMateria>
+				Sistemas Digitales
+			</nombreMateria>
+		</materia>
+	</dia>
+	<dia nombre="Martes">
+		<materia>
+			<nombreMateria>
+				Fundamentos de Redes
+			</nombreMateria>
+		</materia>
+		<materia>
+			<nombreMateria>
+				Desarrollo basado en plataformas
+			</nombreMateria>
+		</materia>
+		<materia>
+			<nombreMateria>
+				Análisis Numérico
+			</nombreMateria>
+		</materia>
+	</dia>
+	<dia nombre="Miercoles">
+		<materia>
+			<nombreMateria>
+				Sistemas Digitales
+			</nombreMateria>
+		</materia>
+		<materia>
+			<nombreMateria>
+				Análisis Numérico
+			</nombreMateria>
+		</materia>
+		<materia>
+			<nombreMateria>
+				Desarrollo basado en plataformas
+			</nombreMateria>
+		</materia>
+	</dia>
+	<dia nombre="Jueves">
+		<materia>
+			<nombreMateria>
+				Desarrollo basado en plataformas
+			</nombreMateria>
+		</materia>
+		<materia>
+			<nombreMateria>
+				Fundamentos de Redes
+			</nombreMateria>
+		</materia>
+		<materia>
+			<nombreMateria>
+				Simulación
+			</nombreMateria>
+		</materia>
+	</dia>
+	<dia nombre="Viernes">
+		<materia>
+			<nombreMateria>
+				Desarrollo basado en plataformas
+			</nombreMateria>
+		</materia>
+		<materia>
+			<nombreMateria>
+				Simulación
+			</nombreMateria>
+		</materia>
+		<materia>
+			<nombreMateria>
+				Sistemas Digitales
+			</nombreMateria>
+		</materia>
+	</dia>
+</semana>

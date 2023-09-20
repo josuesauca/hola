@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido</h1>
+        <button class="btn btn-class" id="btnIngresar">Ingresar</button>
+    </div>
+    <div class="popup">
+        <div class="popup content">
+            <div class="col-md-6 mb-3">
+                <img src="https://img.freepik.com/vector-gratis/feliz-grupo-estudiantes-universitarios-adolescentes-personaje-dibujos-animados-ilustracion_9026-113.jpg"
+                    class="img-fluid" alt="image">
+                <button type="button" class="btn-close" id = "btn-close" aria-label="Close">X</button>
+            </div>
+            <div class="col-md-6 mb-3">
+                <h3 class="signin-text mb-3">Ingresar</h3>
+                <form action="menu.html" name="formulario" method="post">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" class="form-control" autocomplete="on" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" class="form-control" autocomplete="on" required>
+                    </div>
+                    <button class="btn btn-class" type="submit" id="ingresar">Ingresar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../JavaScript/index.js" type="module"></script>
+</body>
+
+</html>
